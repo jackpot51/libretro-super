@@ -236,7 +236,7 @@ libretro_easyrpg_build_subdir="build"
 libretro_easyrpg_git_submodules="yes"
 libretro_easyrpg_post_fetch_cmd="cmake . -DPLAYER_TARGET_PLATFORM=libretro -t build"
 libretro_easyrpg_build_makefile="Makefile"
- 
+
 include_core_gme() {
 	register_module core "gme" -ngc -ps3 -psp1 -wii
 }
@@ -262,7 +262,7 @@ include_core_snes9x2002() {
 }
 libretro_snes9x2002_name="SNES9x 2002"
 libretro_snes9x2002_git_url="https://github.com/libretro/snes9x2002.git"
- 
+
 include_core_snes9x2005() {
 	register_module core "snes9x2005" -ngc -ps3 -psp1 -wii
 }
@@ -288,7 +288,7 @@ include_core_snes9x() {
 	register_module core "snes9x" -ngc -sncps3 -ps3 -psp1 -wii
 }
 libretro_snes9x_name="SNES9x"
-libretro_snes9x_git_url="https://github.com/libretro/snes9x.git"
+libretro_snes9x_git_url="https://github.com/jackpot51/snes9x.git"
 libretro_snes9x_build_subdir="libretro"
 
 include_core_flycast() {
