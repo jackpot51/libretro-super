@@ -1123,7 +1123,7 @@ include_core_parallel_n64() {
 	register_module core "parallel_n64" -theos_ios -ngc -ps3 -psp1 -wii
 }
 libretro_parallel_n64_name="Parallel N64"
-libretro_parallel_n64_git_url="https://github.com/libretro/parallel-n64.git"
+libretro_parallel_n64_git_url="https://github.com/jackpot51/parallel-n64.git"
 libretro_parallel_n64_build_platform="$FORMAT_COMPILER_TARGET_ALT"
 libretro_parallel_n64_configure() {
 	if iscpu_x86_64 $ARCH; then
